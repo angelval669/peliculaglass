@@ -1,0 +1,177 @@
+body{
+    background: rgb(69, 8, 82);
+    font-family: monospace;
+}
+
+header {
+    max-width: 1000px;
+    min-height: 130px;
+    background: #ccc;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+}
+
+/*LOGO*/
+#logo{
+    width: 5px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding: 12px;
+}
+/*LOGO*/
+
+/*MENU HORIZONTAL*/
+#menu-h {
+    max-width: 1000px;
+    min-height: 58px;
+    background: #000;
+    margin: 0 auto;
+}
+/*MENU HORIZONTAL*/
+
+/*BANNER*/
+#banner{
+    max-width: 1000px;
+    min-height: 300px;
+    background: #fff;
+    margin: 0 auto;
+}
+/*BANNER*/
+
+/*CONTENEDOR*/
+#contener{
+    max-width: 1000px;
+    min-height: 763px;
+    background: rgb(170, 214, 156);
+    margin: 0 auto;
+}
+/*CONTENEDOR*/
+
+
+
+/*MENU VERTICAL*/
+
+.titulo{
+    color: #000;
+    text-align: center;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+
+#menu-v{
+    width: 300px;
+    min-height: 763px;
+    background: #ccc;
+    float: left;
+}
+
+#menu-v img{
+    padding-left: 75px;
+    margin-bottom: 20px;
+    filter: brightness(70%);
+    animation: escalar 1.5s infinite alternate;
+}
+
+@keyframes escalar{
+    to {
+        transform: scale(1);
+    }
+
+    from {
+        transform: scale(1.05);
+    }
+}
+
+#menu-v img:hover{
+    filter: brightness(100%);
+}
+/*MENU VERTICAL*/
+
+/*CONTENIDO*/
+#contenido{
+    width: 700px;
+    min-height: 763px;
+    background: rgb(97, 86, 86);
+    float: right;
+}
+
+#contenido img{
+    padding-left: 60px;
+    margin-bottom: 19px;
+    filter: brightness(70%);
+}
+
+#contenido img:hover{
+    filter: brightness(100%);
+}
+
+.titule{
+  text-align: center;
+  font-size: 30px;
+}
+/*CONTENIDO*/
+
+
+/*BUSCADOR*/
+.buscador{
+    position: absolute;
+    padding: 6px;
+}
+
+.buscador input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    outline: none;  
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    padding: 3px;
+    padding-top: 0 px;
+    right: 0;
+    background: #440080;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscador:hover input{
+    width: 240px;
+
+}
+
+.buscador input:focus{
+    width: 240px;
+}
+/*BUSCADOR*/
+
+/*PIE DE PAGINA*/
+footer{
+    max-width: 1000px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+
+
+/*PIE DE PAGINA*/
